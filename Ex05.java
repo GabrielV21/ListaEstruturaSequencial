@@ -6,6 +6,7 @@ public class Ex05 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe a medida em metros: ");
         float num = sc.nextFloat();
+        sc.close();
         System.out.println("A medida em centímetros é: " + num*100);
     }
 }
