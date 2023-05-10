@@ -4,10 +4,11 @@ public class Ex15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Quanto você ganha por hora? ");
-        float salariohora = sc.nextFloat();
+        double salariohora = sc.nextDouble();
         System.out.println("Quantas horas você trabalha no mês? ");
-        float horas = sc.nextFloat();
-        float bruto = salariohora*horas;
+        double horas = sc.nextDouble();
+        sc.close();
+        double bruto = salariohora*horas;
         double IR =  bruto*0.11;
         double INSS = bruto*0.08;
         double Sind = bruto*0.05;
