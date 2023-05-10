@@ -6,9 +6,9 @@ public class Ex02 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        Short num;
+        double num;
         System.out.println("Informe o numero: ");
-        num = sc.nextShort();
+        num = sc.nextDouble();
         System.out.println("O numero informado foi: " + num);
     
     }
