@@ -9,6 +9,7 @@ public class Ex02 {
         double num;
         System.out.println("Informe o numero: ");
         num = sc.nextDouble();
+        sc.close();
         System.out.println("O numero informado foi: " + num);
     
     }
