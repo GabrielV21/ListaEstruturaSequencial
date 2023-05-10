@@ -7,6 +7,7 @@ public class Ex08 {
         double salario = sc.nextDouble();
         System.out.println("Informe quantas horas você trabalha por mês; ");
         double horas = sc.nextDouble();
+        sc.close();
         System.out.println("Seu salário é: R$" + salario * horas);
     }
 }
