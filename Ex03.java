@@ -10,6 +10,7 @@ public class Ex03 {
         num1 = sc.nextDouble();
         System.out.println("Informe o segundo numero: ");
         num2 = sc.nextDouble();
+        sc.close();
         System.out.println("A soma dos dois numeros informados foi: " + (num1+num2));
     }
 }
