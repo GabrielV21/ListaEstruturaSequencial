@@ -10,6 +10,7 @@ public class Ex04 {
             System.out.println("Informe a nota: ");
             nota[i] = sc.nextFloat();
           }
+        sc.close();
         System.out.println("A média das notas é: " + ((nota[0]+nota[1]+nota[2]+nota[3])/4) );
         
     } 
